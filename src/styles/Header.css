@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(237, 236, 235);
+}
+.navbar div img{
+    width: 50px;
+    /* z-index: 1; */
+    opacity: 10;
+}
+.navbar-elements > ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+.navbar-elements>ul>li{
+    list-style: none;
+    margin: 10px;
+    
+}
+.navbar-elements ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
